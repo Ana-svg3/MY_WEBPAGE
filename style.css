@@ -203,3 +203,20 @@ nav{
         font-size: 28px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .parent > div {
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        padding: 15px;
+    }
+
+}
