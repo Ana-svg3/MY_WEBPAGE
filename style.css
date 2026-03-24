@@ -45,7 +45,6 @@ p {
     border-radius: 10px;
 }
 
-/* TEXTO */
 .info p {
     text-align: left;
     font-size: 18px;
@@ -204,3 +203,20 @@ nav{
     }
 }
 
+@media (max-width: 768px) {
+
+    .div7, .div8, .div9 {
+        height: auto;
+    }
+
+    .div7 img, .div8 img, .div9 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .div10, .div11, .div12 {
+        text-align: center;
+        padding: 10px;
+    }
+
+}
